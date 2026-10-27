@@ -1,4 +1,4 @@
-name: pavlova_merioles
+name: stack_image_activity
 description: "A Strawberry Pavlova recipe screen built with Flutter."
 publish_to: 'none'
 version: 0.1.0+1

@@ -1,11 +1,11 @@
 import 'package:flutter/material.dart';
 
 void main() {
-  runApp(const PavlovaMeriolesApp());
+  runApp(const StackImageActivityApp());
 }
 
-class PavlovaMeriolesApp extends StatelessWidget {
-  const PavlovaMeriolesApp({super.key});
+class StackImageActivityApp extends StatelessWidget {
+  const StackImageActivityApp({super.key});
 
   @override
   Widget build(BuildContext context) {
