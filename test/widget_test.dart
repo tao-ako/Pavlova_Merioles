@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_test/flutter_test.dart';
-import 'package:stack_image_activity/main.dart';
+import 'package:pavlova_merioles/main.dart';
 
 void main() {
   testWidgets('shows the recipe and surname in the app bar', (tester) async {
-    await tester.pumpWidget(const StackImageActivityApp());
+    await tester.pumpWidget(const PavlovaMeriolesApp());
 
     expect(find.text('Merioles'), findsOneWidget);
     expect(find.text('Strawberry Pavlova'), findsOneWidget);
@@ -16,7 +16,7 @@ void main() {
   });
 
   testWidgets('shows the requested rating and recipe details', (tester) async {
-    await tester.pumpWidget(const StackImageActivityApp());
+    await tester.pumpWidget(const PavlovaMeriolesApp());
 
     expect(find.byIcon(Icons.star), findsNWidgets(3));
     expect(find.byIcon(Icons.star_border), findsNWidgets(2));
@@ -35,7 +35,7 @@ void main() {
     addTearDown(tester.view.resetPhysicalSize);
     addTearDown(tester.view.resetDevicePixelRatio);
 
-    await tester.pumpWidget(const StackImageActivityApp());
+    await tester.pumpWidget(const PavlovaMeriolesApp());
     await tester.pump();
 
     expect(tester.takeException(), isNull);

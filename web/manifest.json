@@ -1,11 +1,11 @@
 {
-    "name": "stack_image_activity",
-    "short_name": "stack_image_activity",
+    "name": "Strawberry Pavlova",
+    "short_name": "Pavlova",
     "start_url": ".",
     "display": "standalone",
     "background_color": "#0175C2",
     "theme_color": "#0175C2",
-    "description": "A new Flutter project.",
+    "description": "A Strawberry Pavlova recipe.",
     "orientation": "portrait-primary",
     "prefer_related_applications": false,
     "icons": [

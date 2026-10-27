@@ -1,4 +1,4 @@
-package com.example.stack_image_activity
+package com.merioles.pavlova_recipe
 
 import io.flutter.embedding.android.FlutterActivity
 

@@ -3,6 +3,8 @@
 A Flutter recipe detail screen inspired by the supplied Strawberry Pavlova
 reference. It displays the recipe photo, description, three-of-five-star rating,
 review count, and preparation, cooking, and serving details.
+This is a standalone Flutter project with Android application ID
+`com.merioles.pavlova_recipe`, so it installs separately from Stack & Image Lab.
 
 ## Run
 
